@@ -1,0 +1,126 @@
+body {
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0;
+  padding: 0;
+}
+.custom-navbar {
+  background-color: #FBDCE1; /*#FFADCD*/
+  font-family: 'Crimson Text', serif;
+}
+.custom-navbar .nav-link {
+  color: black !important;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+.custom-navbar .nav-link:hover {
+  color: white !important;
+}
+.hero {
+  background-color: #D0EEF0; /*#99CAFF*/
+  min-height: 100vh;
+  padding-top: 80px;
+  padding-left: 8cm;
+}
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero-text h2 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+.hero-text h3 {
+  margin-top: 10px;
+  /*font-weight: bold;*/
+  font-size: 1.5rem;
+}
+/*.profile-img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}*/
+.profile-img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: -400px; /* geser ke kiri */
+}
+.content-section {
+  position: relative;
+  background: url("bg1.jpg") no-repeat center center/cover;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*.content-section .overlay {
+  background: rgba(255, 245, 219, 0.85);
+  padding: 50px;
+  border-radius: 15px;
+}*/
+.content-section .overlay {
+  background: rgba(255, 245, 219, 0.85);
+  padding: 50px;
+  border-radius: 15px;
+  max-width: 800px; /* lebar kotak maksimal */
+  margin: auto;     /* biar posisinya di tengah */
+  text-align: center;
+}
+.btn-pink {
+  background-color: #FFADCD;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.btn-pink:hover {
+  background-color: #f58bb2;
+  color: white;
+}
+.footer {
+  background-color: #FFF5DB;
+  padding: 20px;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+.footer a:hover {
+  color: #FFADCD;
+}
+.about-section {
+  position: relative;
+  background: url("bg2.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*.about-section .overlay {
+  background: rgba(255, 245, 219, 0.85);
+  padding: 50px;
+  border-radius: 15px;
+}*/
+.about-section .overlay {
+  background: rgba(255, 245, 219, 0.85);
+  padding: 50px;
+  border-radius: 15px;
+  max-width: 800px; /* lebar kotak maksimal */
+  margin: auto;     /* biar posisinya di tengah */
+  text-align: center;
+}
+.portofolio-section {
+  position: relative;
+  background: url("bg3.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portofolio-section .overlay {
+  background: rgba(255, 245, 219, 0.85);
+  padding: 50px;
+  border-radius: 15px;
+}
